@@ -16,6 +16,7 @@ Compared with 2.0 (the May 2026 modernization for Apple Silicon).
 - **Games played as a fraction.** Typing `11/23` in a GP field was read as 11 games. It is now read as 0.478, matching Windows SQBS. Each GP field has a tooltip explaining decimal and fraction entry.
 - **Dark Mode.** Tables and text areas no longer show white backgrounds in Dark Mode.
 - **Bonus tracking set to None.** After a blocked attempt to change the bonus method, the setting now correctly snaps back to None instead of Manual.
+- **Works alongside Quiz Bowl Statkeeper.** Saving a file in SQBS keeps the schedule, pools and playoff data that [Quiz Bowl Statkeeper](https://github.com/bdleblanc81/qbstatkeeper) stores in it.
 - **File type.** The app's tournament-file type now matches its declared type exactly, so Finder associates SQBS files correctly.
 
 ### Requirements
