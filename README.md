@@ -41,4 +41,6 @@ shasum -a 256 ~/Downloads/SQBS-2.0.1-mac.dmg
 
 ## Credits
 
-SQBS was created by Chris Borglum, Ben Chamberlayne and Neil Smith. The Mac modernization and cross-platform work is maintained by Nick Pruitt.
+- **Chris Sewell**: original author of SQBS.
+- **Neil Smith**, with help from **Ben Smith**: ported SQBS to the Mac.
+- **Nick Pruitt**, with assistance from Claude Opus 4.8, 5 and 5.5: Apple Silicon compatibility and modernization.
