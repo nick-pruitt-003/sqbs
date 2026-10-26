@@ -11,10 +11,6 @@ Two efforts exist. Both read and write the same `.qzx`-style tournament files as
 
 ## Timeline
 
-<!-- DRAFT: dates below are estimates for Nick to confirm before publishing. -->
+**Windows and Linux release: target late October to early November 2026.** Most of the work is done; what remains is finishing and testing Windows compatibility on a PC. Installers will be published in this repo next to the Mac build.
 
-1. **SQBS Plus 0.2.0 — target: November 2026.** Release the 2.0.1-parity code already on `main` as Windows and Linux installers. This is the interim PC build.
-2. **SQBS (Avalonia) beta — target: Q1 2027.** Remaining work: Settings screens, merge with duplicate detection, then installers that bundle the Swift runtime for Windows and Linux.
-3. **SQBS (Avalonia) 2.1 — target: Q2 2027.** Becomes the recommended Windows/Linux download once it has been used at a real tournament. Releases appear in this repo alongside the Mac build.
-
-Until then, Windows users can keep using classic Windows SQBS; files move between all versions.
+Until then, Windows users can use classic Windows SQBS or the [SQBS Plus 0.1.0 pre-release](https://github.com/nick-pruitt-003/sqbs-plus/releases). Tournament files move between all versions.
