@@ -1,5 +1,28 @@
 # Changelog
 
+## SQBS 2.1 for Mac — unreleased
+
+Compared with 2.0.1. Schedule and Playoffs come from [Quiz Bowl Statkeeper](https://github.com/bdleblanc81/qbstatkeeper), used with its author's permission, and run on the same engine as SQBS 2.1 for Windows and Linux.
+
+### New
+
+- **Schedule screen.** Set rounds and rooms, add schools and teams, deal teams into pools, and generate a random or round-robin schedule. The room-by-round grid lets you pick or lock any game by hand. Also: moderators and scorekeepers (with the rounds they're available), buzzer locations, and checks for byes, repeat matchups and room repeats.
+- **Playoffs screen.** Playoff rounds, bracket format, tiebreakers and coin flips, seeds from the standings or by hand, and brackets with games fed by winners and losers.
+- **Games waiting for a score.** Scheduled and playoff games appear in Game Entry with their round and teams filled in. They count nowhere until you enter a score. **Next Waiting** jumps to the next one, and **New Round** checks that the round is complete before moving on.
+- **Schedule reports.** Web reports now include room matchups, team schedules, missing slots and buzzer locations once a schedule exists.
+- **Autosave is on by default** (every 10 minutes) and the setting is remembered between launches.
+
+### Fixed
+
+- **Quit crash.** SQBS could crash while quitting with a tournament open.
+- **Files from Quiz Bowl Statkeeper** with a long schedule could fail to open.
+- **Merging** two files that differ only in manual rank overrides is no longer blocked as "teams differ".
+- **Settings** showed 60 minutes for any autosave interval.
+
+### Requirements
+
+- macOS 12 Monterey or later. Universal: Apple Silicon and Intel.
+
 ## SQBS 2.0.1 for Mac — 2026-10-26
 
 Compared with 2.0 (the May 2026 modernization for Apple Silicon).
