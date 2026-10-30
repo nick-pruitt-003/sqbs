@@ -1,16 +1,7 @@
-# Windows and Linux roadmap
+# Windows and Linux
 
-Two efforts exist. Both read and write the same `.qzx`-style tournament files as Mac SQBS and Windows SQBS.
+**Released in SQBS 2.1 (2026-10-30)**, together with SQBS 2.1 for Mac. Download it from the [release page](https://github.com/nick-pruitt-003/sqbs/releases/latest).
 
-| | SQBS Plus | SQBS (Avalonia) |
-|---|---|---|
-| Stack | Rust + Tauri + Svelte | C# Avalonia UI on the Swift SQBSTournamentKit engine |
-| Repo | [sqbs-plus](https://github.com/nick-pruitt-003/sqbs-plus) (public) | SQBSTournamentKit (private until release) |
-| Installers today | v0.1.0 pre-release: Windows `.exe`/`.msi`, Linux `.deb` | None |
-| Matches Mac 2.0.1 | Yes, on `main` (merged 2026-08-19), not yet released | Game Entry, Tournament Setup, Reports done; Settings and Merge not started |
+The Windows and Linux app is built on the same engine as the Mac app, so features and file handling match on all three. It replaces the [SQBS Plus](https://github.com/nick-pruitt-003/sqbs-plus) pre-release, which stays available.
 
-## Timeline
-
-**Windows and Linux release: target late October to early November 2026.** Most of the work is done; what remains is finishing and testing Windows compatibility on a PC. Installers will be published in this repo next to the Mac build.
-
-Until then, Windows users can use classic Windows SQBS or the [SQBS Plus 0.1.0 pre-release](https://github.com/nick-pruitt-003/sqbs-plus/releases). Tournament files move between all versions.
+Tournament files move between SQBS 2.1, SQBS Mac 2.0.1 and classic SQBS for Windows. Older versions don't know about games waiting for a score; see the 2.1 release notes.

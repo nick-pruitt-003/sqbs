@@ -1,6 +1,6 @@
 # Changelog
 
-## SQBS 2.1 for Windows and Linux — unreleased
+## SQBS 2.1 for Windows and Linux — 2026-10-30
 
 The first release of the new SQBS for Windows and Linux, built on the same engine as SQBS for Mac. It replaces the SQBS Plus pre-release.
 
@@ -10,7 +10,7 @@ The first release of the new SQBS for Windows and Linux, built on the same engin
 - **Appearance:** light, dark or system theme, accent colors, and four text sizes.
 - **Installers:** Windows setup for 64-bit Windows, and a `.deb` for 64-bit Debian 12+ and Ubuntu 22.04+.
 
-## SQBS 2.1 for Mac — unreleased
+## SQBS 2.1 for Mac — 2026-10-30
 
 Compared with 2.0.1. Schedule and Playoffs come from [Quiz Bowl Statkeeper](https://github.com/bdleblanc81/qbstatkeeper), used with its author's permission, and run on the same engine as SQBS 2.1 for Windows and Linux.
 
