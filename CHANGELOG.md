@@ -12,7 +12,7 @@ The first release of the new SQBS for Windows and Linux, built on the same engin
 
 ## SQBS 2.1 for Mac — 2026-10-30
 
-Compared with 2.0.1. Schedule and Playoffs come from [Quiz Bowl Statkeeper](https://github.com/bdleblanc81/qbstatkeeper), used with its author's permission, and run on the same engine as SQBS 2.1 for Windows and Linux.
+Compared with 2.0.1. Schedule and Playoffs come from Brian LeBlanc's [Quiz Bowl Statkeeper](https://github.com/bdleblanc81/qbstatkeeper), including the Swift framework he built them on, used with his permission. They run on the same engine as SQBS 2.1 for Windows and Linux.
 
 ### New
 

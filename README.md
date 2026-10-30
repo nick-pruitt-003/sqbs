@@ -51,4 +51,5 @@ shasum -a 256 ~/Downloads/SQBS-2.1-mac.dmg
 
 - **Chris Sewell**: original author of SQBS.
 - **Neil Smith**, with help from **Ben Smith**: ported SQBS to the Mac.
+- **Brian LeBlanc**: author of [Quiz Bowl Statkeeper](https://github.com/bdleblanc81/qbstatkeeper). Scheduling, rooms, moderators and scorekeepers, buzzer tracking, pools and playoff brackets in SQBS 2.1 come from his work, including the Swift framework they're built on.
 - **Nick Pruitt**, with assistance from Claude Opus 4.8, 5 and 5.5: Apple Silicon compatibility and modernization.
