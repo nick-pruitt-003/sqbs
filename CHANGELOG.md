@@ -1,5 +1,15 @@
 # Changelog
 
+## SQBS 2.1 for Windows and Linux — unreleased
+
+The first release of the new SQBS for Windows and Linux, built on the same engine as SQBS for Mac. It replaces the SQBS Plus pre-release.
+
+- **Everything from SQBS for Mac:** Tournament Setup, Game Entry, Reports, Settings, Merge with the duplicate-game check, and the W-8 name warning.
+- **Schedule and Playoffs**, the same as SQBS 2.1 for Mac (below).
+- **Autosave backups** every 10 minutes by default, to `sqbsautosave.qzx` next to your file.
+- **Appearance:** light, dark or system theme, accent colors, and four text sizes.
+- **Installers:** Windows setup for 64-bit Windows, and a `.deb` for 64-bit Debian 12+ and Ubuntu 22.04+.
+
 ## SQBS 2.1 for Mac — unreleased
 
 Compared with 2.0.1. Schedule and Playoffs come from [Quiz Bowl Statkeeper](https://github.com/bdleblanc81/qbstatkeeper), used with its author's permission, and run on the same engine as SQBS 2.1 for Windows and Linux.
